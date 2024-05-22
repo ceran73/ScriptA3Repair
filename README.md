@@ -9,3 +9,7 @@ OPZIONALE
 Il tempo di cooldown é personalizzabile, per modificarlo:
  - Aprire il file `repair.sqf`
  - Modificare il valore della variabile `_timeForRepair = 150;` con un valore a piacere IN SECONDI 
+
+PER SCARICARE 
+PREMERE IL TASTO RELEASE A DESTRA
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
