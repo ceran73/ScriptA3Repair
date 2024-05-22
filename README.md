@@ -1,21 +1,11 @@
-_timeForRepair = 150; 
- 
-_vehicle = vehicle player; 
- 
-hint format ["Please wait %1 seconds for repair",_timeForRepair]; 
- 
-if (_vehicle == player) then 
- 
-{_vehicle = cursorTarget;}; 
-  
-_vehicle setdamage 0; 
- 
-_vehicle = nil; 
- 
-_vehicle = _this select 0; 
+Script per Arma3 che permette di riparare un veicolo dall'action menu, lo script ha un cooldown di 150 secondi di default.
 
-_vehicle setVariable ["stopcooldown",FALSE];
+COME USARE:
+ - Scaricare i 2 file
+ - Inserire il file `repair.sqf` nella stessa cartella del file missione
+ - Inserire il contenuto del file `vehicleInit.txt` nell'init di ogni veicolo che si vuole poter riparare
 
-sleep _timeForRepair; 
-
-_vehicle setVariable ["stopcooldown",TRUE];
+OPZIONALE
+Il tempo di cooldown é personalizzabile, per modificarlo:
+ - Aprire il file `repair.sqf`
+ - Modificare il valore della variabile `_timeForRepair = 150;` con un valore a piacere IN SECONDI 
