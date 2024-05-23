@@ -12,4 +12,6 @@ Il tempo di cooldown é personalizzabile, per modificarlo:
 
 PER SCARICARE 
 PREMERE IL TASTO RELEASE A DESTRA
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+TODO
+ - !!! TESTARE LO SCRIPT SU SERVER !!!
