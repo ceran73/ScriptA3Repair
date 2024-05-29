@@ -15,4 +15,4 @@ PREMERE IL TASTO RELEASE A DESTRA
 
 TODO
  - !!! TESTARE LO SCRIPT SU SERVER !!!
- - AGGIUNGERE CONDIZIONE `_this == _target getPilot`
+ - AGGIUNGERE CONDIZIONE `_this == _target currentPilot`
